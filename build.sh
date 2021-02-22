@@ -12,3 +12,11 @@ make -j10
 
 mkdir -p /llvm
 make install
+
+cd
+git clone https://github.com/DaveGamble/cJSON
+cd cJSON
+mkdir build
+cd build
+cmake ..
+sudo make install
